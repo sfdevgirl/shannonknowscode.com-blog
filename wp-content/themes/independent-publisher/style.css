@@ -827,7 +827,7 @@ ul ul ul {color: #ae4b33;}
 .widget img,
 img[class*="align"],
 img[class*="wp-image-"] {
-    height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+    height: 275px; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
 }
 
 .site-header img,
@@ -1476,6 +1476,63 @@ font-family: Raleway, sans-serif;
     line-height: 200%;
 }
 
+nav{
+    font-family: 'Englebert', sans-serif;
+        background: #9ad7b9;
+        min-height: 50px;
+        position: relative;
+       top:0;
+        text-align: center;
+        -webkit-transition: background 0.3s;
+           -moz-transition: background 0.3s;
+                transition: background 0.3s;
+        width: 100%;
+        z-index: 9999;
+  border-bottom: 2px solid #ffffff;
+        margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+
+    }
+.port{
+    position: fixed;
+}
+nav ul{
+     max-width: 1200px;
+ 
+}
+
+  nav li, nav a{
+    
+ list-style-type:none;
+  
+  padding-top: 10px;
+  font-size: 19px;
+letter-spacing:.16em;
+font-weight:bold;
+padding-left: 30px;
+
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+ font-family: 'Englebert', sans-serif;
+ display: inline;
+}
+
+
+
+nav a:hover{
+color: #333;
+
+
+}
+nav a:active{
+color:#ED2939;
+}
+
+
+
 .site-master-logo {
     position: fixed;
     top: 5px;
@@ -1555,7 +1612,7 @@ color: #333;
 }
 
 .site-published-date {
-    margin: 5px 0 0 0;
+    margin: 0 0 0 0;
     color: #929292;
     font-size: 16px;
     font-family: inherit;
@@ -1739,7 +1796,7 @@ h6, h6 a {
 }
 
 .page h1.entry-title {
-    margin-top: 20px;
+    
     font-size: 3.5em;
 }
 
@@ -1885,6 +1942,7 @@ color:#333;
     position: relative;
     margin-left: -220px;
     text-align: right;
+    clear:both;
 }
 
 .site-content,
@@ -1916,7 +1974,7 @@ color:#333;
 .entry-title {
     
 text-indent: 10px;
-padding-top: 25px;
+
 }
 
 .widget_search input[type="text"] {
@@ -2200,13 +2258,13 @@ table th {
     border-bottom: 3px solid #eee;
     
     margin-top: 0;
-    padding-top:10px;
-    padding-bottom: 10px;
+    
+    padding-top: 10px;
     margin-bottom: 20px;
 }
 
 .single-column-layout #nav-below .site-navigation {
-    margin-top: 40px;
+    margin-top: 0px;
     padding-bottom: 40px;
 }
 
@@ -2553,7 +2611,7 @@ font-family: 'Dancing Script', cursive;
     #masthead .site-navigation {
         border-bottom: 3px solid #eee;
         margin-top: 0;
-        padding-bottom: 10px;
+        
         margin-bottom: 20px;
     }
 
@@ -2563,7 +2621,7 @@ font-family: 'Dancing Script', cursive;
 
     .main-navigation li {
         display: inline-block;
-        padding: 5px 10px;
+        padding: 0 10px;
         width: auto;
     }
 
@@ -2608,7 +2666,7 @@ font-family: 'Dancing Script', cursive;
 @media only screen and (max-width: 500px) {
     .site,
     .single-column-layout .site {
-        margin-top: 20px;
+        margin-top: 0;
     }
 
     .site-header,

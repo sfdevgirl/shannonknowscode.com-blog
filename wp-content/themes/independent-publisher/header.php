@@ -36,13 +36,7 @@
 		<?php endif; ?>
 	</div>
 <?php endif; ?>
-
-<div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-
-		
-
-		<?php // Show navigation menu on everything except Single pages, unless Show Primary Nav Menu on Single Pages is enabled ?>
+<?php // Show navigation menu on everything except Single pages, unless Show Primary Nav Menu on Single Pages is enabled ?>
 		<?php if ( ! is_single() || independent_publisher_show_nav_on_single() ) : ?>
 			<nav role="navigation" class="site-navigation main-navigation">
 				<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'independent-publisher' ); ?>"><?php _e( 'Skip to content', 'independent-publisher' ); ?></a>
@@ -55,16 +49,22 @@
 				<?php endif; ?>
 
 			</nav><!-- .site-navigation .main-navigation -->
-		<?php endif; ?>
-<div class="site-header-info">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+
+		<div class="site-header-info">
 			<?php if ( is_single() ) : ?>
 				<?php // Show only post author info on Single Pages ?>
 				<?php independent_publisher_posted_author_card(); ?>
 			<?php else : ?>
 				<?php // Show Header Image, Site Title, and Site Tagline on everything except Single Pages ?>
 				<?php independent_publisher_site_info(); ?>
+<a href="http://s1144.photobucket.com/user/shannones1104/media/photoon8-4-14at602pm2_zpsa796bb70.jpg.html" target="_blank"><img src="http://i1144.photobucket.com/albums/o489/shannones1104/photoon8-4-14at602pm2_zpsa796bb70.jpg" border="0" alt=" photo photoon8-4-14at602pm2_zpsa796bb70.jpg"/></a>
 			<?php endif; ?>
 		</div>
+
+		
+		<?php endif; ?>
 
 		<?php do_action( 'independent_publisher_header_after' ); ?>
 	</header>
