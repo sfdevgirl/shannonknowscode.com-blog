@@ -40,15 +40,7 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
-		<div class="site-header-info">
-			<?php if ( is_single() ) : ?>
-				<?php // Show only post author info on Single Pages ?>
-				<?php independent_publisher_posted_author_card(); ?>
-			<?php else : ?>
-				<?php // Show Header Image, Site Title, and Site Tagline on everything except Single Pages ?>
-				<?php independent_publisher_site_info(); ?>
-			<?php endif; ?>
-		</div>
+		
 
 		<?php // Show navigation menu on everything except Single pages, unless Show Primary Nav Menu on Single Pages is enabled ?>
 		<?php if ( ! is_single() || independent_publisher_show_nav_on_single() ) : ?>
@@ -64,6 +56,15 @@
 
 			</nav><!-- .site-navigation .main-navigation -->
 		<?php endif; ?>
+<div class="site-header-info">
+			<?php if ( is_single() ) : ?>
+				<?php // Show only post author info on Single Pages ?>
+				<?php independent_publisher_posted_author_card(); ?>
+			<?php else : ?>
+				<?php // Show Header Image, Site Title, and Site Tagline on everything except Single Pages ?>
+				<?php independent_publisher_site_info(); ?>
+			<?php endif; ?>
+		</div>
 
 		<?php do_action( 'independent_publisher_header_after' ); ?>
 	</header>

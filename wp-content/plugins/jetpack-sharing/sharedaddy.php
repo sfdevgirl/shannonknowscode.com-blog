@@ -1,11 +1,11 @@
 <?php
 
 /*
- * Plugin Name: Jetpack Sharing
+ * Plugin Name: JP Sharing
  * Plugin URI: http://wordpress.org/plugins/jetpack-sharing/
  * Description: Share content with Facebook, Twitter, and many more.
  * Author: Anas H. Sulaiman
- * Version: 3.0.1
+ * Version: 3.1
  * Author URI: http://ahs.pw/
  * Text Domain: jetpack
  * Domain Path: /languages/
@@ -25,7 +25,7 @@
  */
 
 // E-4 {
-define( 'JETPACK_SHARING_VERSION', '3.0.1' );
+define( 'JETPACK_SHARING_VERSION', '3.1' );
 // } E-4
 
 if ( !function_exists( 'sharing_init' ) )
@@ -35,7 +35,7 @@ if ( !function_exists( 'sharing_init' ) )
 add_action( 'init', 'jetpack_sharing_register_genericons', 1 );
 function jetpack_sharing_register_genericons() {
 	if ( ! wp_style_is( 'genericons', 'registered' ) ) {
-		wp_register_style( 'genericons', plugins_url( 'genericons/genericons.css', __FILE__ ), false, '3.0.3' );
+		wp_register_style( 'genericons', plugins_url( 'genericons/genericons/genericons.css', __FILE__ ), false, '3.1' );
 	}
 }
 // } E-5

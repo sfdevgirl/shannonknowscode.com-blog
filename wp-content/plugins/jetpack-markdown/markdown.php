@@ -1,11 +1,11 @@
 <?php
 
 /*
- * Plugin Name: Jetpack Markdown
+ * Plugin Name: JP Markdown
  * Plugin URI: http://wordpress.org/plugins/jetpack-markdown/
  * Description: Write posts or pages in plain-text Markdown syntax.
  * Author: Anas H. Sulaiman
- * Version: 3.0.1
+ * Version: 3.1
  * Author URI: http://ahs.pw/
  * Text Domain: jetpack
  * Domain Path: /languages/
