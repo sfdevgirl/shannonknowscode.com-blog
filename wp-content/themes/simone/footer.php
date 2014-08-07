@@ -20,7 +20,7 @@
 <li><a href="http://shannonlearnscode.tumblr.com" target="_blank"><img src="http://i1144.photobucket.com/albums/o489/shannones1104/Tumblr_zps0e446b39.png"/></a></li>
 <li><a href="mailto:hello@shannonknowscode.com"><img src="http://i1144.photobucket.com/albums/o489/shannones1104/Email_zpsf34922f3.png"/></a></li>
 </ul>
-<span class="copy">&copy;opyright 2014. <a href="/contact.html">Shannon Smith</a> </span> 
+<span class="copy">&copy;opyright 2014. <a href="a href="mailto:shannon@shannonknowscode.com">Shannon Smith</a> </span> 
             
 	</footer><!-- #colophon -->
 </div><!-- #page -->

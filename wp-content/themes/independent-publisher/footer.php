@@ -21,7 +21,7 @@
 
 <li><a href="mailto:shannon@shannonknowscode.com"><img src="http://i1144.photobucket.com/albums/o489/shannones1104/Email_zpsf34922f3.png"/></a></li>
 </ul>
-<span class="copy">&copy;opyright 2014. <a href="/contact.html">Shannon Smith</a> </span> 
+<span class="copy">&copy;opyright 2014. <a href="mailto:shannon@shannonknowscode.com">Shannon Smith</a> </span> 
             
 	</div>
 	<!-- .site-info -->

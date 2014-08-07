@@ -399,6 +399,7 @@ textarea {
  a {
     
     text-decoration: italic;
+    color: inherit;
 }
 
 li a{
@@ -472,10 +473,19 @@ color:white;
 }
 
 .main-navigation a {
-    text-decoration: none;
-    font-size: 15px;
-    font-family: 'Englebert', sans-serif;
+   
 color:#333;
+list-style-type: none;
+padding: 5px 0px;
+text-decoration: none;
+display: block;
+line-height: 1.2;
+font-size: 19px;
+letter-spacing: .16px;
+float: left;
+
+text-transform: uppercase;
+font-family: 'Englebert', sans-serif;
 }
 
 .main-navigation ul ul {
@@ -1498,10 +1508,7 @@ text-align: center;
 .port{
     position: fixed;
 }
-nav ul{
-     max-width: 1200px;
- 
-}
+
 
   nav li, nav a{
     
@@ -1648,8 +1655,8 @@ color: #333;
     text-decoration: none;
     display: block;
     line-height: 1.2;
-font-size: 18px;
-letter-spacing:0.5px;
+font-size: 19px;
+letter-spacing:0.16px;
 }
 
 .widget-area ul li a {
@@ -2301,8 +2308,13 @@ font-family: 'Dancing Script', cursive;
 }
 
 .single-column-layout #masthead .main-navigation ul {
-    margin-left: -10px;
-}
+    display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;}
 
 .single-column-layout.archive .page-title,
 .single-column-layout.archive .archive-title {
@@ -2736,6 +2748,17 @@ font-family: 'Dancing Script', cursive;
 
     .single-column-layout .site-navigation {
         margin-bottom: 0;
+        font-family: 'Englebert', sans-serif;
+background: #9ad7b9;
+min-height: 50px;
+position: relative;
+top: 0;
+border-bottom: 3px solid #eee;
+margin-top: 0;
+padding-top: 10px;
+margin-bottom: 20px;
+width: 100%;
+list-style-type: none;
     }
 
     #masthead .main-navigation ul,
