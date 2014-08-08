@@ -399,9 +399,11 @@ textarea {
  a {
     
     text-decoration: none;
-    font-style: italic;
-    color: #333;
+    
+    color: inherit;
 }
+
+
 
 li a{
     
@@ -410,7 +412,7 @@ li a{
 
 .entry-content a:visited {
     
-    text-decoration: italic;
+    font-style:  italic;
 }
 
 .entry-content a:hover,
