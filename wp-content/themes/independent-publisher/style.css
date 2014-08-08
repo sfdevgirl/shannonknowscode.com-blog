@@ -398,8 +398,9 @@ textarea {
 /* Links */
  a {
     
-    text-decoration: italic;
-    color: #ae4b33;
+    text-decoration: none;
+    font-style: italic;
+    color: #333;
 }
 
 li a{
