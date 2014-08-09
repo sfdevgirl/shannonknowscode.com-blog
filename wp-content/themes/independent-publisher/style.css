@@ -410,9 +410,8 @@ li a{
     color: inherit;
 }
 
-.entry-content a:visited {
-    
-    font-style:  italic;
+.entry-content a {
+color: #ae4b33;
 }
 
 .entry-content a:hover,
